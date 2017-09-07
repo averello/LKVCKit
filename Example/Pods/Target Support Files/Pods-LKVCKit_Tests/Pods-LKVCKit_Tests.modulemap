@@ -1,0 +1,6 @@
+framework module Pods_LKVCKit_Tests {
+  umbrella header "Pods-LKVCKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

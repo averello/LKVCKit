@@ -1,0 +1,27 @@
+PODS:
+  - Ents (1.17)
+  - LKVCKit (1.1.3):
+    - Ents
+
+DEPENDENCIES:
+  - Ents (from `https://github.com/averello/Ents.git`)
+  - LKVCKit (from `../`)
+
+EXTERNAL SOURCES:
+  Ents:
+    :git: https://github.com/averello/Ents.git
+  LKVCKit:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  Ents:
+    :commit: 580e1880a334135f775b2cf1ef20f0e1a1540f1d
+    :git: https://github.com/averello/Ents.git
+
+SPEC CHECKSUMS:
+  Ents: f7469b80b3507e2bbc936c96b2cf61e79c0ce809
+  LKVCKit: b96cd7ec9dc2da116ca1a50f414320578d1ffcbd
+
+PODFILE CHECKSUM: f52e59dba986e169e6a3a8396234cea703e5c883
+
+COCOAPODS: 1.2.1

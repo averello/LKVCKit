@@ -1,0 +1,6 @@
+framework module LKVCKit {
+  umbrella header "LKVCKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
