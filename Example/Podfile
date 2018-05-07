@@ -4,7 +4,7 @@ platform :ios, '8.0'
 target 'LKVCKit_Tests' do
   pod 'LKVCKit', :path => '../'
 
-  pod 'Ents', :git => 'https://github.com/averello/Ents.git', :branch => 'feature/swift4'
+  pod 'Ents', :git => 'https://github.com/averello/Ents.git'
   
   
 end

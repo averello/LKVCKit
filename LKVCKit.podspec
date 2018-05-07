@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKVCKit'
-  s.version          = '2.0'
+  s.version          = '2.1'
   s.summary          = 'A very basic and simplistic Key-Value Coding implementation for Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LKVCKit/Classes/**/*'
+
+  s.xcconfig = {
+	  "SWIFT_VERSION" => '4.0',
+  }
   
   # s.resource_bundles = {
   #   'LKVCKit' => ['LKVCKit/Assets/*.png']

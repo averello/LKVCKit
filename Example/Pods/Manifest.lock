@@ -1,28 +1,27 @@
 PODS:
-  - Ents (2.0.1)
-  - LKVCKit (2.0):
+  - Ents (3.0.2)
+  - LKVCKit (2.1):
     - Ents
 
 DEPENDENCIES:
-  - Ents (from `https://github.com/averello/Ents.git`, branch `feature/swift4`)
+  - Ents (from `https://github.com/averello/Ents.git`)
   - LKVCKit (from `../`)
 
 EXTERNAL SOURCES:
   Ents:
-    :branch: feature/swift4
     :git: https://github.com/averello/Ents.git
   LKVCKit:
     :path: "../"
 
 CHECKOUT OPTIONS:
   Ents:
-    :commit: 2e1ebe3f5b29191034476aa4d5b6f7ac5a0a66cd
+    :commit: 0fe24694f29439d730a4d4f9cae6b47c4a571d1c
     :git: https://github.com/averello/Ents.git
 
 SPEC CHECKSUMS:
-  Ents: be561facca59ddd5c73181c66cdd904ffe496079
-  LKVCKit: 7732f7e85c3107f35a9d9317c772bef06c77939d
+  Ents: ba6f1580477df17aca1ea671975ab17789a05e98
+  LKVCKit: 70cd7ee3d1c62d2f279ac734e6972425d126ec4d
 
-PODFILE CHECKSUM: 7c8b047f257367d2ec89126b937027e6132a02dd
+PODFILE CHECKSUM: f52e59dba986e169e6a3a8396234cea703e5c883
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.0
